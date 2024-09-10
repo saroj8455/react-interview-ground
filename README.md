@@ -1,6 +1,12 @@
-# React + Vite
+# React Interview Round Practical Session
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+## Install the below dependency
+
+```sh
+npm i primereact primeicons primeflex uuid react-router-dom @tanstack/react-query --save
+```
 
 Currently, two official plugins are available:
 
