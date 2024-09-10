@@ -6,16 +6,36 @@ export default function Header() {
       <nav>
         <ul className='flex gap-4 align-items-center justify-content-center'>
           <li>
-            <a href='#'>Home</a>
+            <a
+              href='#'
+              className='font-medium text-700 hover:text-orange-700 focus:text-blue-500 active:text-blue-500'
+            >
+              Home
+            </a>
           </li>
           <li>
-            <a href='#'>About Us</a>
+            <a
+              href='#'
+              className='font-medium text-700 hover:text-orange-700 focus:text-blue-500 active:text-blue-500'
+            >
+              About Us
+            </a>
           </li>
           <li>
-            <a href='#'>Contact</a>
+            <a
+              href='#'
+              className='font-medium text-700 hover:text-orange-700 focus:text-blue-500 active:text-blue-500'
+            >
+              Contact
+            </a>
           </li>
           <li>
-            <a href='#'>Products</a>
+            <a
+              href='#'
+              className='font-medium text-700 hover:text-orange-700 focus:text-blue-500 active:text-blue-500'
+            >
+              Products
+            </a>
           </li>
         </ul>
       </nav>
