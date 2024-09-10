@@ -5,7 +5,7 @@ export default function Home() {
     <section>
       <div className='container'>
         <article>
-          <h1>Welcome to my home page</h1>
+          <h1 className='text-2xl mb-4'>Welcome to my home page</h1>
           <p>
             To provide the ability for a user to navigate, we'll want to set up
             NavLinks to each available route. Each NavLink will have a "to"

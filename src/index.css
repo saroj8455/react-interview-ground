@@ -45,7 +45,6 @@ body {
   line-height: 1.5;
   text-rendering: optimizeSpeed;
 }
-
 h1,
 h2,
 h3 {
@@ -60,13 +59,14 @@ ul {
 
 /* A elements that don't have a class get default styles */
 a {
-  color: green;
+  padding: 1rem;
+  border-radius: 0.5rem;
   text-decoration: none;
 }
 
 a:hover,
 a:focus {
-  color: #555;
+  animation: ease-in 1s;
 }
 
 /* Make images easier to work with */
